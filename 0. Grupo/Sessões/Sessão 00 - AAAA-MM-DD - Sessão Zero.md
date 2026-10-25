@@ -63,7 +63,7 @@ PJs feitos só para uma aventura usam [[Template - PJ One-shot]].
 
 ## Ganchos iniciais apresentados
 
-- [[Capítulo 01 - Título]] — premissa em uma frase.
+- [[Capítulo 01 - Ladrões na Estrada]] — premissa em uma frase.
 
 ## Pendências
 

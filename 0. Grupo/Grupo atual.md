@@ -1,7 +1,6 @@
 ---
-tipo: hub
+tipo: grupo
 tags:
-  - hub
   - grupo
 ---
 
@@ -11,12 +10,15 @@ PJs que estão jogando **nesta aventura**. Quando o elenco muda, reescreva esta 
 
 ## Agora
 
-- **Aventura:** [[Capítulo 01 - Título]]
+- **Aventura:** [[Capítulo 01 - Ladrões na Estrada]]
 - **Nível:** 1
 
 | Jogador(a) | PJ | Nível |
 |-----------|----|-------|
-|  | [[Nome do PJ 1]] | 1 |
+|  | (a criar) | 1 |
+|  | (a criar) | 1 |
+|  | (a criar) | 1 |
+|  | (a criar) | 1 |
 
 ## Histórico
 

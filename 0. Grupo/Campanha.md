@@ -7,43 +7,39 @@ tags:
 
 # Campanha
 
-Ficha-mestra do vault. Criada a partir de [[Template - Campanha]].
-
-**Sistema:**
-**Formato:** campanha longa | antologia | one-shots soltos | misto
-**Mestre:**
+**Sistema:** D&D 5.5e
+**Formato:** antologia (one-shots e aventuras curtas)
+**Mestre:** você
 
 ## Pitch
 
-(O que é a campanha, tom, o que os jogadores podem esperar.)
+Uma série de one-shots curtas em D&D 5.5e, com grupos que podem mudar de uma aventura para outra. O tom é de gente comum em apuros: dívidas, vizinhos, cobranças — vilões que existem no mundo real com espada na cinta.
 
 ## Como funciona
 
-- **Aventuras têm continuidade?**
-- **O grupo muda entre aventuras?**
-- **PJs sobem de nível?** (por aventura / por sessão / por marco)
-- **Nível inicial / final previsto:**
-
-Detalhes em [[Regras da casa]].
+- **Aventuras têm continuidade?** Parcial: cada uma funciona sozinha, mas o que os PJs fazem fica no mundo.
+- **O grupo muda entre aventuras?** Sim, pode mudar.
+- **PJs sobem de nível?** Não, por enquanto. Vamos ficar no nível 1 por várias aventuras, de propósito, para aprender o sistema.
+- **PJs novos entram com nível:** mesmo nível do grupo (1).
 
 ## Elenco de PJs
 
 | PJ | Jogador(a) | Nível |
 |----|-----------|-------|
-| [[Nome do PJ 1]] |  | 1 |
+| (a criar) |  | 1 |
 
 ## Aventuras
 
 | # | Aventura | Formato | Sessões | Nível |
 |---|----------|---------|---------|-------|
-| 01 | [[Capítulo 01 - Título]] | one-shot | 1 | 1 |
+| 01 | [[Capítulo 01 - Ladrões na Estrada]] | one-shot | 1 | 1 |
 
 ## O fio que costura as aventuras
 
-Mesmo em one-shots soltos vale ter algo que atravesse: uma cidade, uma facção, um vilão, um mistério.
+O que atravessa os one-shots: a região das vilas do ribeirão, os credores e os nomes que aparecem no [[Caderno-razão do Brás]].
 
-- [[Organização]]
-- [[Personagem]]
+- [[Brás Cutilada]] — se sobreviver, volta; se não, alguém toma o lugar dele.
+- *"Casa do Mercador"* — o nome grande no caderno, ainda sem rosto.
 
 ## Tempo entre aventuras
 

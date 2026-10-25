@@ -43,13 +43,13 @@ Aqui vivem **todas as aventuras**: one-shots de uma sessão, aventuras curtas de
 
 | # | Aventura | Formato | Sessões | Nível |
 |---|----------|---------|---------|-------|
-| 01 | [[Capítulo 01 - Título]] | one-shot | 1 | 1 |
+| 01 | [[Capítulo 01 - Ladrões na Estrada]] | one-shot | 1 | 1 |
 
 ## Entre aventuras
 
 Antes de começar a próxima:
 
 - [ ] Bloco **Fim da aventura** da sessão final preenchido
-- [ ] Nível aplicado nas fichas e em `Nível dos PJs` da aventura
 - [ ] Grupo atual reescrito (quem continua, quem entra)
 - [ ] O que mudou no mundo registrado em [[Campanha]]
+- [ ] (Sem ganho de nível por enquanto: nível 1 até o grupo dominar o sistema)
