@@ -8,5 +8,7 @@
   "strictLineBreaks": false,
   "trashOption": "local",
   "newFileLocation": "folder",
-  "newFileFolderPath": "0. Grupo"
+  "newFileFolderPath": "0. Grupo",
+  "showInlineTitle": true,
+  "defaultViewMode": "preview"
 }

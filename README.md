@@ -142,6 +142,46 @@ Para montar tabelas automáticas: `Ctrl/Cmd + P` → **Bases: Criar nova base** 
 - Grafo com grupos coloridos por pasta.
 - Novas notas criadas em `0. Grupo` por padrão.
 
+## Plugins da comunidade (já instalados e ativados)
+
+| Plugin | Para quê |
+|--------|----------|
+| **Iconize** (`obsidian-icon-folder`) | ícones/emojis em pastas e notas — é o que dá a cara de "vault de RPG" |
+| **Image Toolkit** | zoom, girar e copiar imagens direto na nota |
+| **Fantasy Statblocks** (`obsidian-5e-statblocks`) | blocos de ficha de monstro/NPC de D&D 5e |
+| **Dice Roller** (`obsidian-dice-roller`) | rolagem inline: `` `dice: 1d20+3` `` |
+
+### Ícones das pastas
+
+Já configurados com emojis nativos (edite em **Configurações → Iconize**, ou clique com o botão direito na pasta → *Change icon*):
+
+| Pasta | Ícone |
+|-------|-------|
+| `0. Grupo` | ⭐ |
+| `1. Capítulos` | 📜 |
+| `2. Lugares` | 🗺️ |
+| `3. Personagens` | 🧑 |
+| `4. Itens` | 🪄 |
+| `5. Organizações` | 🏰 |
+| `6. Monstros` | 🧛 |
+| `7. Templates` | 🧩 |
+| `z_imagens` | 🖼️ |
+
+Os `main.js` dos plugins estão versionados junto (cerca de 4,5 MB), então o vault já abre funcionando — não precisa baixar nada do marketplace.
+
+### Fantasy Statblocks e Dice Roller
+
+```statblock
+name: Ladrão mascarado
+type: humano
+hp: 4
+ac: 10
+attacks:
+  - [Machado de lenha, 1d6]
+```
+
+Rolagem inline em qualquer nota: `` `dice: 1d6+2` `` ou `dice: 1d20`.
+
 ## Começando
 
 1. Copie a pasta `vault_template` e renomeie com o nome da campanha.
