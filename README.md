@@ -1,8 +1,8 @@
 # Estrutura do Vault — Modelo para Campanhas de RPG
 
-Este é um **vault de modelo** (template) para organizar aventuras e campanhas de RPG no Obsidian.
-Serve tanto para **campanha longa** quanto para **antologia de one-shots** ou para uma mistura das duas.
-Copie esta pasta, renomeie, e comece a preencher — estrutura, templates e convenções já estão prontos.
+Vault de modelo para organizar aventuras e campanhas de RPG no Obsidian.
+Serve tanto para **campanha longa** quanto para **antologia de one-shots** (ou mistura das duas).
+Copie esta pasta, renomeie e comece a preencher — estrutura, templates e convenções já estão prontos.
 
 ---
 
@@ -10,39 +10,21 @@ Copie esta pasta, renomeie, e comece a preencher — estrutura, templates e conv
 
 | Conceito | O que é | Onde vive |
 |----------|---------|-----------|
-| **Campanha** | o guarda-chuva: sistema, formato, continuidade, progressão | `0. Grupo/Campanha.md` |
+| **Campanha** | o guarda-chuva: sistema, formato, progressão, o fio entre aventuras | `0. Grupo/Campanha.md` |
 | **Aventura** | one-shot, aventura curta ou arco longo | `1. Capítulos/NN - nome/` |
-| **Grupo atual** | quem está jogando **agora** (pode mudar a cada aventura) | `0. Grupo/Grupo atual.md` |
-| **Pool de PJs** | todos os personagens de jogador já criados, em qualquer estado | `0. Grupo/Personagens/` |
-| **Sessão** | uma noite de jogo, sempre ligada a uma aventura e a um grupo | `0. Grupo/Sessões/` |
+| **Grupo atual** | quem está jogando **agora** | `0. Grupo/Grupo atual.md` |
+| **PJ** | ficha do personagem de jogador, que sobrevive à troca de elenco | `0. Grupo/Personagens/` |
+| **Sessão** | uma noite de jogo, sempre ligada a uma aventura | `0. Grupo/Sessões/` |
 
-O modelo separa **personagem** de **grupo** justamente para os dois casos que você descreveu:
-elenco que muda entre aventuras e PJs que sobem de nível de uma aventura para outra.
+Separar **grupo** de **PJ** é o que permite elenco que muda entre aventuras sem perder nenhuma ficha.
 
-## Cenários de uso
+## Os dois casos principais
 
-### A. Campanha longa, grupo fixo
-- `formato: campanha longa` em `Campanha.md`.
-- Um único `Grupo atual` que muda pouco.
-- Aventuras encadeadas; `Conexões` de cada uma aponta para a anterior.
+**Campanha longa:** um `Grupo atual` que muda pouco, aventuras encadeadas em `1. Capítulos` (o campo *Conexões* de cada uma aponta para a anterior), ganho de nível ao fim de cada aventura.
 
-### B. Antologia de one-shots
-- `formato: antologia`.
-- Cada aventura tem `formato: one-shot` e `sessoes_previstas: 1`.
-- `Grupo atual` é reescrito a cada aventura (ou cada one-shot traz PJs pré-gerados com `Template - PJ One-shot`).
-- Rascunhos e ideias soltas ficam em `0. Grupo/One-shots/` até virarem aventura.
-- O que costura a antologia (`Ameaças e arcos de fundo` em `Campanha.md`): uma cidade, uma facção, um vilão.
+**Antologia de one-shots:** cada aventura tem `formato: one-shot` e `Sessões previstas: 1`; `Grupo atual` é reescrito a cada aventura; ideias ainda não jogadas ficam em `0. Grupo/One-shots` até virar aventura. O que costura a antologia (*O fio que costura as aventuras* em `Campanha.md`) pode ser uma cidade, uma facção, um vilão.
 
-### C. Grupo rotativo com progressão
-- PJs têm `status: ativo | reserva | aposentado | morto` e `tipo_elenco: principal | rotativo | one-shot`.
-- Quem está fora de jogo continua no pool com `status: reserva` — a ficha **nunca é apagada**.
-- Antes de cada aventura, monte o `Grupo atual` escolhendo PJs do pool.
-
-### D. Progressão entre aventuras
-- Regra escolhida em `Campanha.md` → `Progressão` (por aventura, por sessão ou por marco).
-- A ficha do PJ guarda a tabela **Progressão** (`aventura | nível início | nível fim | o que ganhou`); o bloco de estatísticas é sempre o **nível atual**.
-- A nota da aventura registra `nivel_pjs` → `nivel_final`.
-- A última sessão da aventura preenche **Fechamento de aventura**, incluindo se o ganho de nível foi aplicado.
+Trocar de elenco e subir de nível podem acontecer nos dois formatos — não há campos de status nem classificações de elenco para preencher.
 
 ---
 
@@ -53,18 +35,18 @@ elenco que muda entre aventuras e PJs que sobem de nível de uma aventura para o
 ├── .obsidian/                 # configuração do Obsidian (já pronta)
 ├── 0. Grupo/
 │   ├── Início.md              # hub principal
-│   ├── Campanha.md            # formato, progressão, troca de grupo
-│   ├── Grupo atual.md         # quem joga agora + histórico de grupos
-│   ├── One-shots/             # rascunhos de one-shot ainda não jogados
-│   ├── Personagens/           # pool de PJs (ativos, reserva, aposentados)
+│   ├── Campanha.md            # formato, progressão, fio entre aventuras
+│   ├── Grupo atual.md         # quem joga agora + histórico
+│   ├── One-shots/             # ideias de one-shot ainda não jogadas
+│   ├── Personagens/           # fichas de PJ
 │   │   └── Personagens dos jogadores.md
-│   ├── Sessões/               # uma nota por sessão
+│   ├── Sessões/
 │   │   ├── Sessões.md
 │   │   └── Sessão 00 - ... - Sessão Zero.md
 │   └── Regras da casa/
 │       └── Regras da casa.md
 ├── 1. Capítulos/
-│   ├── Capítulos.md           # índice de aventuras + convenções
+│   ├── Capítulos.md           # índice de aventuras
 │   └── 00 - Template/         # exemplo de subpasta de aventura
 ├── 2. Lugares/
 ├── 3. Personagens/
@@ -75,8 +57,8 @@ elenco que muda entre aventuras e PJs que sobem de nível de uma aventura para o
 │   └── tabelas/
 ├── 5. Organizações/
 ├── 6. Monstros/
-├── 7. Templates/              # modelos do plugin Templates
-├── z_imagens/                 # TODAS as imagens
+├── 7. Templates/
+├── z_imagens/
 │   ├── personagens/ lugares/ monstros/ itens/ capitulos/ cena/
 ├── AGENTS.md
 └── README.md
@@ -116,6 +98,8 @@ elenco que muda entre aventuras e PJs que sobem de nível de uma aventura para o
 
 **Como usar:** `Ctrl/Cmd + P` → **Templates: Inserir modelo** (o plugin já aponta para `7. Templates`).
 
+Os templates são curtos de propósito: só as seções que se usam na mesa. Se precisar de mais detalhe numa nota específica, acrescente ali — não no template.
+
 ## Convenções de nome
 
 - **Sessões:** `Sessão NN - AAAA-MM-DD - Título opcional` (numeração contínua no vault, nunca reinicia por aventura)
@@ -127,19 +111,21 @@ elenco que muda entre aventuras e PJs que sobem de nível de uma aventura para o
 
 ## Frontmatter (properties)
 
+Poucos campos, iguais em todo o vault:
+
 | Campo | Usado em | Exemplo |
 |-------|----------|---------|
-| `tipo` | todas | `campanha`, `grupo`, `sessao`, `pj`, `capitulo`, `one-shot`, `lugar`, `item`, `pnj`, `organização`, `monstro` |
+| `tipo` | todas | `campanha`, `grupo`, `sessao`, `pj`, `capitulo`, `one-shot`, `lugar`, `item`, `personagem`, `organizacao`, `monstro` |
 | `formato` | campanha, aventura | `antologia`, `one-shot`, `aventura curta`, `arco longo` |
-| `status` | quase todas | `ativo`, `reserva`, `aposentado`, `em andamento`, `concluído` |
-| `tipo_elenco` | PJ | `principal`, `rotativo`, `one-shot` |
-| `nivel` / `nivel_pjs` / `nivel_final` | PJ, aventura | `1`, `3` |
-| `grupo` / `participantes` | sessão, aventura | links para [[Grupo atual]] e PJs |
-| `sessoes_previstas` | aventura | `1` (one-shot) |
+| `numero` | sessão, aventura | `1`, `3` |
+| `nivel` | PJ, one-shot | `1`, `3` |
+| `jogador` | PJ | nome de quem interpreta |
+| `capitulo` | sessão | link para a aventura |
 | `tags` | todas | `pj`, `sessao`, `one-shot`… |
-| `atualizado` | todas | `2026-10-25` |
 
-Para montar tabelas automáticas: `Ctrl/Cmd + P` → **Bases: Criar nova base** e filtrar por `tipo` ou `status` (ex.: `tipo == "pj" and status == "ativo"`).
+A progressão de nível fica em texto dentro da nota (aventura: `Nível dos PJs: 1 → 2`; ficha: lista **Progressão**), sem campos extras.
+
+Para montar tabelas automáticas: `Ctrl/Cmd + P` → **Bases: Criar nova base** e filtrar por `tipo` (ex.: `tipo == "pj"`).
 
 ## Imagens
 
@@ -160,17 +146,16 @@ Para montar tabelas automáticas: `Ctrl/Cmd + P` → **Bases: Criar nova base** 
 
 1. Copie a pasta `vault_template` e renomeie com o nome da campanha.
 2. Abra no Obsidian (**Abrir pasta como cofre**).
-3. Preencha `0. Grupo/Campanha.md` — especialmente **formato** e **progressão**.
-4. Preencha `0. Grupo/Início.md` (nome, sistema, mestre).
-5. Escolha o caminho:
-   - **Campanha longa:** crie o `Grupo atual`, uma ficha por PJ e a primeira aventura em `1. Capítulos`.
+3. Preencha `0. Grupo/Campanha.md` (formato e progressão) e `0. Grupo/Início.md` (nome, sistema, mestre).
+4. Escolha o caminho:
+   - **Campanha longa:** monte o `Grupo atual`, uma ficha por PJ e a primeira aventura em `1. Capítulos`.
    - **Antologia:** crie as ideias em `0. Grupo/One-shots` e promova a aventura quando for jogar.
-6. Apague as notas de exemplo (`Nome do Personagem`, `Nome do Item`, `Capítulo 01 - Título`, `One-shot - Título`, `Sessão 00`) quando não precisar mais delas.
+5. Apague as notas de exemplo (`Nome do Personagem`, `Nome do Item`, `Capítulo 01 - Título`, `One-shot - Título`, `Sessão 00`) quando não precisar mais delas.
 
-## Ciclo entre aventuras (checklist)
+## Ciclo entre aventuras
 
-- [ ] Última sessão da aventura com **Fechamento de aventura** preenchido
-- [ ] Ganho de nível aplicado (ficha + tabela de progressão)
-- [ ] `Grupo atual` atualizado e resumo anterior movido para o histórico
-- [ ] Estado do mundo registrado em `Campanha.md` → tempo entre aventuras
+- [ ] Última sessão com o bloco **Fim da aventura** preenchido
+- [ ] Nível aplicado na ficha do PJ e no `Nível dos PJs` da aventura
+- [ ] `Grupo atual` reescrito e resumo anterior movido para o histórico
+- [ ] O que mudou no mundo registrado em `Campanha.md`
 - [ ] Próxima aventura criada/aberta em `1. Capítulos`

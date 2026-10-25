@@ -1,10 +1,5 @@
 ---
-tipo: pnj
-nome: Nome do Personagem
-status: ativo
-papel: ""
-faccao: ""
-local: ""
+tipo: personagem
 tags:
   - personagem
 ---
@@ -13,17 +8,20 @@ tags:
 
 ![[z_imagens/personagens/nome-do-personagem.png|300]]
 
-**Tipo:** PNJ
-**Papel:**
-**Facção:** [[Nome da Organização]]
+**Tipo:** PNJ | PJ | Criatura
+**Papel:** (líder, mercador, antagonista…)
 **Local:** [[Nome do Lugar]]
-**Aventuras:** [[Capítulo 01 - Título]]
-**Fonte:**
+**Aventura:** [[Capítulo 01 - Título]]
 
 ## Resumo
 
+(Quem é, papel na história, traços marcantes.)
+
 ## Situação atual
 
-## Contexto e relações
+## Relações
 
-## Ver também
+- [[Personagem]]
+- [[Organização]]
+
+## Segredos e ganchos

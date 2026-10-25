@@ -39,9 +39,9 @@ Ponto de entrada do vault. Troque o título acima pelo nome da campanha.
 
 ## Aventuras
 
-| # | Aventura | Formato | Sessões | Grupo | Nível | Status |
-|---|----------|---------|---------|-------|-------|--------|
-| 01 | [[Capítulo 01 - Título]] | one-shot | 1 | [[Grupo atual]] | 1 | não iniciado |
+| # | Aventura | Formato | Sessões | Nível |
+|---|----------|---------|---------|-------|
+| 01 | [[Capítulo 01 - Título]] | one-shot | 1 | 1 |
 
 ## Elenco de PJs
 

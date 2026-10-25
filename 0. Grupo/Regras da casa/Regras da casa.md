@@ -35,8 +35,8 @@ Tudo que o grupo combinou fora das regras do livro: ajustes, segurança de mesa,
 - **Elenco fixo, rotativo ou por aventura:**
 - **PJs entram com nível:** (igual ao grupo / 1 / à escolha do mestre)
 - **Jogador novo entra como:** PJ novo no nível do grupo
-- **PJ que sai:** vira `aposentado` — não é apagado, pode voltar
-- **PJs one-shot:** arquivados após a aventura, promovidos ao pool só se o jogador quiser continuar
+- **PJ que sai:** continua no vault, só deixa de aparecer no [[Grupo atual]] — pode voltar
+- **PJs one-shot:** ficam arquivados após a aventura; só viram PJ recorrente se o jogador quiser continuar
 
 ## Ajustes de regra
 

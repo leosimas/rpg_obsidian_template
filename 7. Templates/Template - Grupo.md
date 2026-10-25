@@ -1,48 +1,24 @@
 ---
 tipo: grupo
-nome: Grupo atual
-aventura: ""
-jogadores: []
-personagens: []
-nivel: 1
-status: ativo
 tags:
   - grupo
-atualizado: "{{date:YYYY-MM-DD}}"
 ---
 
 # Grupo atual
 
-**Aventura em jogo:** [[Capítulo 01 - Título]]
-**Nível de partida:** 1
-**Tamanho do grupo:** 4 jogadores
+PJs que estão jogando **nesta aventura**. Quando o elenco muda, reescreva esta lista e guarde o resumo antigo no histórico.
 
-## Quem está jogando agora
+## Agora
 
-| Jogador(a) | PJ | Nível | Ficha |
-|-----------|----|-------|-------|
-|  |  | 1 | [[Nome do PJ 1]] |
+- **Aventura:** [[Capítulo 01 - Título]]
+- **Nível:** 1
 
-## Personagens de reserva
+| Jogador(a) | PJ | Nível |
+|-----------|----|-------|
+|  | [[Nome do PJ 1]] | 1 |
 
-PJs do pool que existem no mundo, mas não estão nesta aventura (jogador faltou, personagem trocou, etc.).
+## Histórico
 
-- [[Nome do PJ 2]] — motivo da ausência
-
-## Expectativas de mesa
-
-- **Sessões previstas:** (1 para one-shot)
-- **Tom:** 
-- **Segurança de mesa:** ver [[Regras da casa]]
-
-## Sessões deste grupo
-
-- [[Sessão 01 - AAAA-MM-DD - Título opcional]]
-
-## Histórico de grupos anteriores
-
-Quando este grupo terminar a aventura, copie o resumo aqui e monte um novo "Grupo atual" para a próxima.
-
-| Aventura | PJs | Nível | Resultado |
-|----------|-----|-------|-----------|
+| Aventura | PJs | Nível | Como terminou |
+|----------|-----|-------|---------------|
 |  |  |  |  |

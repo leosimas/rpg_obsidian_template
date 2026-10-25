@@ -41,15 +41,15 @@ Aqui vivem **todas as aventuras**: one-shots de uma sessão, aventuras curtas de
 
 ## Índice
 
-| # | Aventura | Formato | Sessões | Grupo | Nível | Status |
-|---|----------|---------|---------|-------|-------|--------|
-| 01 | [[Capítulo 01 - Título]] | one-shot | 1 | [[Grupo atual]] | 1 | não iniciado |
+| # | Aventura | Formato | Sessões | Nível |
+|---|----------|---------|---------|-------|
+| 01 | [[Capítulo 01 - Título]] | one-shot | 1 | 1 |
 
 ## Entre aventuras
 
 Antes de começar a próxima:
 
-- [ ] Fechamento da sessão final preenchido
-- [ ] Ganho de nível aplicado nas fichas
-- [ ] Grupo atual atualizado (quem continua, quem sai)
-- [ ] Estado do mundo registrado em [[Campanha]]
+- [ ] Bloco **Fim da aventura** da sessão final preenchido
+- [ ] Nível aplicado nas fichas e em `Nível dos PJs` da aventura
+- [ ] Grupo atual reescrito (quem continua, quem entra)
+- [ ] O que mudou no mundo registrado em [[Campanha]]

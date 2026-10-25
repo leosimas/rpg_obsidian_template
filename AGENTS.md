@@ -18,7 +18,7 @@ Este documento descreve o uso do vault e como agentes de IA devem atuar nele.
 
 | Pasta | Conteúdo |
 |-------|----------|
-| `0. Grupo` | `Campanha.md`, `Grupo atual.md`, `Sessões/`, `Personagens/` (pool de PJs), `Regras da casa/`, `One-shots/` (rascunhos) |
+| `0. Grupo` | `Campanha.md`, `Grupo atual.md`, `Sessões/`, `Personagens/` (PJs), `Regras da casa/`, `One-shots/` (rascunhos) |
 | `1. Capítulos` | uma subpasta por aventura, com nota principal e material de origem |
 | `2. Lugares` | locais do cenário |
 | `3. Personagens` | `importantes/`, `tabelas/`, raiz |
@@ -33,13 +33,13 @@ Não crie pastas ou arquivos fora dessa organização sem pedido explícito.
 ## Conceitos que o agente precisa respeitar
 
 1. **Campanha ≠ aventura ≠ grupo ≠ sessão.**
-   - `Campanha.md` guarda formato, progressão e regras de troca de grupo.
-   - `Grupo atual.md` é quem joga **agora**; pode ser reescrito a cada aventura.
-   - O **pool de PJs** em `0. Grupo/Personagens` inclui ativos, de reserva e aposentados — nunca apague uma ficha de PJ; mude `status`.
+   - `Campanha.md` guarda formato, progressão e o fio que costura as aventuras.
+   - `Grupo atual.md` é quem joga **agora**; reescreva a lista quando o elenco mudar e guarde o resumo no histórico.
+   - PJs ficam em `0. Grupo/Personagens` — nunca apague uma ficha de PJ.
 2. **Formato da aventura** (`formato: one-shot | aventura curta | arco longo`) muda a profundidade da nota, não a estrutura.
-3. **Progressão** é registrada em dois lugares: na aventura (`nivel_pjs` → `nivel_final`) e na ficha do PJ (tabela **Progressão**). O bloco de estatísticas da ficha é sempre o nível atual.
-4. **One-shot:** a nota da sessão única preenche também **Fechamento de aventura**.
-5. **PJs de one-shot** usam `Template - PJ One-shot` com `status: one-shot`; só viram PJ recorrente se o jogador quiser (mudar `status: ativo`, `tipo_elenco: rotativo`).
+3. **Progressão** aparece em dois lugares: na aventura (`Nível dos PJs: 1 → 2`) e na ficha do PJ (lista **Progressão**). O bloco de estatísticas é sempre o nível atual.
+4. **One-shot:** a nota da sessão única preenche também **Fim da aventura**.
+5. **PJs de one-shot** usam `Template - PJ One-shot`; só viram PJ recorrente se o jogador quiser.
 
 ## Resumo do que o agente deve fazer
 
@@ -70,7 +70,7 @@ Não crie pastas ou arquivos fora dessa organização sem pedido explícito.
    - `2. Lugares`, `5. Organizações`, `6. Monstros`.
 
 9. **Ao fechar uma aventura**
-   - Preencher o **Fechamento de aventura** na sessão final; atualizar `status` da aventura, a tabela **Progressão** dos PJs, o `Grupo atual` (com histórico) e o estado do mundo em `Campanha.md`.
+   - Preencher o **Fim da aventura** na sessão final; atualizar a **Progressão** dos PJs, o `Grupo atual` (com histórico) e o que mudou no mundo em `Campanha.md`.
 
 10. **Não inventar conteúdo de regras**
     - Ao registrar estatísticas, indicar a **fonte** (página/capítulo) e marcar como “ajustes da mesa” o que for adaptação própria.

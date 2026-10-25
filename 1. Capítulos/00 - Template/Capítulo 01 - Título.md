@@ -3,12 +3,6 @@ tipo: capitulo
 numero: 1
 titulo: Título
 formato: one-shot
-status: não iniciado
-sistema: ""
-nivel_pjs: 1
-nivel_final: 1
-grupo: []
-sessoes_previstas: 1
 tags:
   - capitulo
 ---
@@ -16,34 +10,48 @@ tags:
 # Capítulo 01 - Título
 
 **Formato:** one-shot | aventura curta | arco longo
-**Status na campanha:** não iniciado | em andamento | concluído
 **Sessões previstas:** 1
 **Nível dos PJs:** 1 → 1
-**Grupo:** [[Grupo atual]]
-**Material de origem:**
+**Pasta:** material de origem (PDF, mapas) fica junto desta nota
 
 ## Premissa
 
+(Resumo em 3–5 frases da ideia central.)
+
 ## Gancho de abertura
 
-## Objetivos dos PJs
+(O que puxa os PJs para dentro.)
 
 ## Estrutura em cenas
 
-## Encontros e desafios
+- **Cena 1** — gatilho, objetivo, encontros, desdobramentos.
+- **Cena 2** — ...
 
-## Personagens importantes
+## Personagens e lugares
 
-## Lugares importantes
+- [[Personagem]] — papel na história.
+- [[Organização]] — envolvimento.
+- [[Lugar]] — palco das cenas.
 
 ## Pistas e segredos
 
-## Recompensas e progressão
+- [ ] 
+
+## Recompensas
+
+- [[Item]] — como e onde é obtido.
+- **Ganho de nível:** (aplicado ao final?)
 
 ## Conexões
 
-- Época/tempo no mundo:
+- Vem de: [[Capítulo anterior]]
+- Leva a: [[Próximo capítulo]]
+- **Época no mundo:**
 
-## Registro de progresso
+## Notas para o mestre
 
-- Sessões relacionadas:
+(Ritmo, perigos, ajustes para o grupo.)
+
+## Sessões
+
+- [[Sessão 01 - AAAA-MM-DD - Título opcional]]
