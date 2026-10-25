@@ -3,48 +3,42 @@ tipo: sessao
 numero: 1
 data: AAAA-MM-DD
 capitulo: ""
-participantes: []
-locais: []
-npc:
-  - 
 tags:
   - sessao
-atualizado: "{{date:YYYY-MM-DD}}"
 ---
 
 # Sessão 01 - AAAA-MM-DD - Título opcional
 
 **Data:** AAAA-MM-DD
-**Capítulo/aventura relacionada:** [[Capítulo 01 - Título]] (opcional)
-**Participantes:** [[Nome do PJ 1]], [[Nome do PJ 2]], ...
+**Aventura:** [[Capítulo 01 - Título]] — sessão 1 de 1
+**Participantes:** [[Nome do PJ 1]], [[Nome do PJ 2]]
 
 ## Resumo curto
 
-(2–4 frases resumindo o que aconteceu de forma geral.)
+(2–4 frases.)
 
-## Linha do tempo
+## O que aconteceu
 
-- **Cena 1** — (descrição breve; lugares e personagens envolvidos: [[Lugar]], [[Personagem]])
+- **Cena 1** — [[Lugar]], [[Personagem]]
 - **Cena 2** — ...
 
-## Destaques mecânicos
+## Destaques
 
-- Testes importantes, momentos heróicos, falhas críticas, recompensas marcantes (sem reproduzir texto de regras do livro).
+- Testes importantes, momentos marcantes, recompensas.
 
-## Tesouros e itens obtidos
+## Itens e nível
 
 - [[Item]] — quem ficou com ele.
+- **Nível no fim:**
 
-## Ganchos e consequências
+## Ganchos e pendências
 
-- (Coisas deixadas em aberto, promessas feitas, perigos em andamento.)
+- [ ] 
 
-## Pendências para a próxima sessão
+## Fim da aventura
 
-- [ ] Questão ou cena pendente
-- [ ] NPC a revisitar: [[Personagem]]
-- [ ] Local a explorar: [[Lugar]]
+Preencher só na última sessão (em one-shot, sempre).
 
-## Notas fora de jogo
-
-- (Comentários do grupo, feedback, ideias para depois.)
+- **Concluída?**
+- **O que mudou no mundo:**
+- **Próximo grupo:**

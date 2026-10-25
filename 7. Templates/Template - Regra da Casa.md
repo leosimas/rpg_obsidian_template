@@ -7,7 +7,7 @@ atualizado: "{{date:YYYY-MM-DD}}"
 
 # Regra da casa - Título
 
-**Categoria:** regra | acordo de mesa | segurança | logística
+**Categoria:** regra | acordo de mesa | segurança | logística | progressão | grupo
 **Vale desde:** AAAA-MM-DD
 
 ## O que muda
@@ -24,4 +24,4 @@ atualizado: "{{date:YYYY-MM-DD}}"
 
 ## Revisão
 
-- [ ] Reavaliar depois de (número de sessões / capítulo).
+- [ ] Reavaliar depois de (número de sessões / aventura).

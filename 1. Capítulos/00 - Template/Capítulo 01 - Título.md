@@ -2,74 +2,48 @@
 tipo: capitulo
 numero: 1
 titulo: Título
+formato: one-shot
 status: não iniciado
 sistema: ""
-personagens: []
-lugares: []
-sessoes: []
+nivel_pjs: 1
+nivel_final: 1
+grupo: []
+sessoes_previstas: 1
 tags:
   - capitulo
 ---
 
 # Capítulo 01 - Título
 
-**Tipo:** capítulo oficial | aventura original | missão curta
+**Formato:** one-shot | aventura curta | arco longo
 **Status na campanha:** não iniciado | em andamento | concluído
-**Material de origem:** (PDF/livro na pasta deste capítulo)
+**Sessões previstas:** 1
+**Nível dos PJs:** 1 → 1
+**Grupo:** [[Grupo atual]]
+**Material de origem:**
 
 ## Premissa
 
-(Resumo em 3–5 frases da ideia central.)
+## Gancho de abertura
 
 ## Objetivos dos PJs
 
-- (O que eles precisam descobrir, impedir ou conseguir.)
-
 ## Estrutura em cenas
-
-- **Cena 1** — gatilho, objetivos, possíveis desdobramentos.
-- **Cena 2** — ...
 
 ## Encontros e desafios
 
-| Encontro | Tipo | Dificuldade | Local | Notas |
-|----------|------|-------------|-------|-------|
-|  | combate / social / exploração | baixa / média / alta | [[Lugar]] |  |
-
 ## Personagens importantes
-
-- [[Personagem]] — papel no capítulo.
-- [[Organização]] — envolvimento.
 
 ## Lugares importantes
 
-- [[Lugar]] — papel na história.
-
 ## Pistas e segredos
 
-- [ ] Pista 1 — onde é encontrada, o que revela.
-
-## Recompensas
-
-- [[Item]] — como e onde é obtido.
-
-## Ritmo e notas para o mestre
-
-(Observações sobre ritmo, perigos, ajustes para o grupo.)
+## Recompensas e progressão
 
 ## Conexões
 
-- Vem de: [[Capítulo anterior ou gancho]]
-- Leva a: [[Próximo capítulo ou gancho]]
+- Época/tempo no mundo:
 
 ## Registro de progresso
 
-- Sessões relacionadas: [[Sessão 01 - AAAA-MM-DD - Título opcional]]
-- Eventos marcantes já ocorridos.
-
-## Arquivos e trechos do livro
-
-- PDFs, mapas e imagens de apoio ficam na pasta deste capítulo.
-- Trechos importantes, resumidos em suas próprias palavras:
-
-> Trecho-chave 1:
+- Sessões relacionadas:

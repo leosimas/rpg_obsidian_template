@@ -17,6 +17,7 @@ tags:
 **Papel:**
 **Facção:** [[Nome da Organização]]
 **Local:** [[Nome do Lugar]]
+**Aventuras:** [[Capítulo 01 - Título]]
 **Fonte:**
 
 ## Resumo

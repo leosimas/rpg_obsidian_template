@@ -1,35 +1,24 @@
 ---
 tipo: pj
-nome: Nome do Personagem
 jogador: ""
 classe: ""
 nivel: 1
-status: ativo
-mesa: ""
 tags:
   - pj
-  - personagem
-atualizado: "{{date:YYYY-MM-DD}}"
 ---
 
 # Nome do PJ
 
 ![[z_imagens/personagens/nome-do-pj.png|300]]
 
-**Jogador(a):** (nome de quem interpreta)
-**Sistema / Classe / Nível:** (ex.: EZD6 — Guerreiro)
-**Mesa:** (campanha ou grupo)
-**Fonte:** Sessão 00 — [[Sessão 00 - AAAA-MM-DD - Sessão Zero]]
+**Jogador(a):**
+**Sistema / Classe / Nível:**
 
 ## Conceito
 
-(Quem é o personagem em 2–3 frases: origem, motivação, o que quer.)
+(Quem é, em 2–3 frases: origem, motivação, o que quer. Traços marcantes.)
 
-## Aparência e personalidade
-
-(Descrição física; traços, valores, medos.)
-
-## Ficha / Estatísticas
+## Ficha
 
 - **Atributos:**
 - **Resiliência / Vida:**
@@ -39,24 +28,20 @@ atualizado: "{{date:YYYY-MM-DD}}"
 
 ## História
 
-(Passado relevante, ganchos que o jogador trouxe para a mesa.)
-
 ## Objetivos
 
-- [ ] Objetivo pessoal de curto prazo
-- [ ] Objetivo pessoal de longo prazo
+- [ ] 
+- [ ] 
 
 ## Relações
 
-- [[Outro PJ]] — (relação)
-- [[Personagem]] — (PNJ importante para o PJ)
-- [[Organização]] — (vínculo)
+- [[Outro PJ]]
+- [[Personagem]]
 
-## Diário do personagem
+## Progressão
 
-> *(Espaço para anotações em primeira pessoa, se o grupo gostar.)*
+- [[Capítulo 01 - Título]] — nível 2
 
-## Ver também
+## Diário
 
-- [[Sessão 00 - AAAA-MM-DD - Sessão Zero]]
-- [[Capítulo 01 - Título]]
+> *(Anotações em primeira pessoa, se o grupo gostar.)*

@@ -11,11 +11,20 @@ tags:
 # Sessão 00 - AAAA-MM-DD - Sessão Zero
 
 **Data:** AAAA-MM-DD
-**Objetivo:** alinhar tom, expectativas e regras antes de começar a campanha.
+**Objetivo:** alinhar tom, expectativas, formato da campanha e regras antes de começar.
+
+> Em antologia de one-shots, a sessão zero pode ser uma só para o grupo todo — ou dispensada se cada aventura trouxer PJs prontos.
 
 ## Pitch da campanha
 
 (3–5 frases sobre o que a campanha é: gênero, tom, o que os jogadores podem esperar.)
+
+## Formato
+
+- **As aventuras têm continuidade?** (sim / não / parcial)
+- **O grupo muda entre aventuras?**
+- **PJs sobem de nível?** (como — ver [[Regras da casa]])
+- **Sessões previstas por aventura:** (1 = one-shot)
 
 ## Tom e referências
 
@@ -38,6 +47,7 @@ Ver [[Regras da casa]] para a lista completa.
 ## Criação de personagens
 
 Cada jogador cria a ficha a partir de [[Template - PJ]] e registra em [[Personagens dos jogadores]].
+PJs feitos só para uma aventura usam [[Template - PJ One-shot]].
 
 - [[Nome do PJ 1]]
 - [[Nome do PJ 2]]

@@ -5,40 +5,51 @@ tags:
   - capitulo
 ---
 
-# Capítulos e aventuras
+# Aventuras e capítulos
 
-Cada capítulo tem uma **subpasta própria** dentro de `1. Capítulos`:
+Aqui vivem **todas as aventuras**: one-shots de uma sessão, aventuras curtas de 2–4 sessões e arcos longos. O mesmo template serve para as três escalas.
+
+## Onde ficam os one-shots ainda não jogados?
+
+- **Ideia solta** (não vai para o vault ainda): nota em `0. Grupo` criada com [[Template - One-shot]].
+- **Pronta para jogar ou já jogada:** ganha subpasta própria aqui, com a nota principal criada a partir de [[Template - Capítulo ou Aventura]] e `formato: one-shot`.
+
+## Subpasta por aventura
 
 ```
 1. Capítulos/
-  01 - nome do capitulo/
-      Capítulo 01 - Nome do Capítulo.md   ← nota principal (Template - Capítulo ou Aventura)
-      mapa-do-capitulo.png                 ← mapas e handouts
-      material-de-origem.pdf               ← livro/aventura oficial
+  01 - nome da aventura/
+      Capítulo 01 - Nome da Aventura.md    ← nota principal
+      (one-shot) 1.1 - Cena de abertura.md
+      (curta)    01 - Linha do Tempo.md
+      mapa.png
+      material.pdf
 ```
-
-## Convenção
 
 - Pasta: `NN - nome-curto` (minúsculas, sem acento).
 - Nota principal: `Capítulo NN - Título`.
-- Notas de cena opcionais: `NN.M - Título da cena` (ex.: `1.3 - O Moinho`).
-- Linha do tempo do arco, quando o capítulo for longo: `NN - Linha do Tempo`.
+- Cenas: `NN.M - Título da cena`.
+- Numeração é **global** (a ordem em que as aventuras foram jogadas), não por arco.
 
-## Capítulos
+## Convenção de formato
 
-| # | Título | Status | Nota |
-|---|--------|--------|------|
-| 01 |  | não iniciado | [[Capítulo 01 - Título]] |
+| `formato` | Sessões | Nota |
+|-----------|---------|------|
+| `one-shot` | 1 | poucas cenas, gancho forte, fechamento na mesma sessão |
+| `aventura curta` | 2–4 | 3 atos curtos, um único objetivo |
+| `arco longo` | 5+ | várias aventuras encadeadas, progressão clara |
 
-## Estrutura de uma subpasta de capítulo (exemplo)
+## Índice
 
-```
-1. Capítulos/01 - titulo/
-    Capítulo 01 - Título.md
-    01 - Linha do Tempo.md
-    1.1 - Cena de abertura.md
-    1.2 - Cena do meio.md
-    1.3 - Confronto final.md
-    mapa.png
-    material.pdf
-```
+| # | Aventura | Formato | Sessões | Grupo | Nível | Status |
+|---|----------|---------|---------|-------|-------|--------|
+| 01 | [[Capítulo 01 - Título]] | one-shot | 1 | [[Grupo atual]] | 1 | não iniciado |
+
+## Entre aventuras
+
+Antes de começar a próxima:
+
+- [ ] Fechamento da sessão final preenchido
+- [ ] Ganho de nível aplicado nas fichas
+- [ ] Grupo atual atualizado (quem continua, quem sai)
+- [ ] Estado do mundo registrado em [[Campanha]]

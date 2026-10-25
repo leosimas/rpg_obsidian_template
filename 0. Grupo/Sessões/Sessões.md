@@ -7,7 +7,7 @@ tags:
 
 # Sessões
 
-Registro de tudo que já foi jogado. Uma nota por sessão, criada a partir de [[Template - Sessão]].
+Uma nota por sessão jogada, criada a partir de [[Template - Sessão]]. Cada sessão aponta para uma aventura.
 
 ## Convenção de nome
 
@@ -15,13 +15,18 @@ Registro de tudo que já foi jogado. Uma nota por sessão, criada a partir de [[
 Sessão NN - AAAA-MM-DD - Título opcional
 ```
 
-- **NN** com dois dígitos (01, 02, …, 10).
-- **Data** no formato ISO (ordena certo na lista de arquivos).
-- **Título** curto e evocativo, opcional.
+Numeração contínua no vault (nunca reinicia por aventura), data em ISO para ordenar certo.
+
+## One-shot vs. aventura de várias sessões
+
+| | One-shot | Várias sessões |
+|---|----------|----------------|
+| Sessões | 1 | 2+ |
+| Seção "Fim da aventura" | preenche sempre | só na última sessão |
 
 ## Sessão zero
 
-A primeira nota de qualquer campanha. Combine expectativas, tom, limites de conteúdo (linhas e véus), regras da casa e a ficha de cada PJ.
+Opcional: em antologia de one-shots pode ser uma só para o grupo todo, ou dispensada.
 
 - [[Sessão 00 - AAAA-MM-DD - Sessão Zero]]
 
@@ -29,10 +34,9 @@ A primeira nota de qualquer campanha. Combine expectativas, tom, limites de cont
 
 - [[Sessão 01 - AAAA-MM-DD - Título opcional]]
 
-## Checklist de fim de sessão
+## Fim de sessão
 
-- [ ] Resumo curto escrito (2–4 frases)
-- [ ] Linha do tempo com links para lugares e personagens
-- [ ] Ganchos e pendências anotados
-- [ ] Notas de personagens/lugares novos criadas
-- [ ] Itens distribuídos registrados na ficha de quem pegou
+- [ ] Resumo e cenas anotados
+- [ ] Itens e nível registrados
+- [ ] Ganchos e pendências listados
+- [ ] Se foi a última sessão: "Fim da aventura" preenchido

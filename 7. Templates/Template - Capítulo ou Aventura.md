@@ -2,77 +2,56 @@
 tipo: capitulo
 numero: 1
 titulo: Título
-status: não iniciado
-sistema: ""
-fonte: ""
-personagens: []
-lugares: []
-sessoes: []
+formato: one-shot
 tags:
   - capitulo
-atualizado: "{{date:YYYY-MM-DD}}"
 ---
 
 # Capítulo 01 - Título
 
-**Tipo:** capítulo oficial | aventura original | missão curta
-**Status na campanha:** não iniciado | em andamento | concluído
-**Material de origem:** (PDF/livro na pasta deste capítulo)
+**Formato:** one-shot | aventura curta | arco longo
+**Sessões previstas:** 1
+**Nível dos PJs:** 1 → 1
+**Pasta:** material de origem (PDF, mapas) fica junto desta nota
 
 ## Premissa
 
 (Resumo em 3–5 frases da ideia central.)
 
-## Objetivos dos PJs
+## Gancho de abertura
 
-- (O que eles precisam descobrir, impedir ou conseguir.)
+(O que puxa os PJs para dentro.)
 
 ## Estrutura em cenas
 
-- **Cena 1** — gatilho, objetivos, possíveis desdobramentos.
+- **Cena 1** — gatilho, objetivo, encontros, desdobramentos.
 - **Cena 2** — ...
 
-## Encontros e desafios
+## Personagens e lugares
 
-| Encontro | Tipo | Dificuldade | Local | Notas |
-|----------|------|-------------|-------|-------|
-|  | combate / social / exploração | baixa / média / alta | [[Lugar]] |  |
-
-## Personagens importantes
-
-- [[Personagem]] — papel no capítulo.
+- [[Personagem]] — papel na história.
 - [[Organização]] — envolvimento.
-
-## Lugares importantes
-
-- [[Lugar]] — papel na história.
+- [[Lugar]] — palco das cenas.
 
 ## Pistas e segredos
 
-- [ ] Pista 1 — onde é encontrada, o que revela.
-- [ ] Pista 2 —
+- [ ] 
 
 ## Recompensas
 
 - [[Item]] — como e onde é obtido.
-
-## Ritmo e notas para o mestre
-
-(Observações sobre ritmo, perigos, ajustes para o grupo.)
+- **Ganho de nível:** (aplicado ao final?)
 
 ## Conexões
 
-- Vem de: [[Capítulo anterior ou gancho]]
-- Leva a: [[Próximo capítulo ou gancho]]
+- Vem de: [[Capítulo anterior]]
+- Leva a: [[Próximo capítulo]]
+- **Época no mundo:**
 
-## Registro de progresso
+## Notas para o mestre
 
-- Sessões relacionadas: [[Sessão 01 - AAAA-MM-DD - Título opcional]]
-- Eventos marcantes já ocorridos.
+(Ritmo, perigos, ajustes para o grupo.)
 
-## Arquivos e trechos do livro
+## Sessões
 
-- Coloque PDFs, mapas e imagens de apoio na pasta deste capítulo (`1. Capítulos/01 - titulo/`).
-- Para trechos importantes, cole abaixo pequenos excertos ou resumos em suas próprias palavras:
-
-> Trecho-chave 1: (resumo ou parte importante do texto que você queira ter à mão durante o jogo.)
+- [[Sessão 01 - AAAA-MM-DD - Título opcional]]
