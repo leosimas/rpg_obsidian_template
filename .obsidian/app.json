@@ -1,0 +1,12 @@
+{
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "z_imagens",
+  "showUnsupportedFiles": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "trashOption": "local",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "0. Grupo"
+}

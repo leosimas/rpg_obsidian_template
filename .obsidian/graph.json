@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "path:\"7. Templates\"",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"1. Capítulos\"",
+      "color": { "a": 1, "rgb": 14701138 }
+    },
+    {
+      "query": "path:\"2. Lugares\"",
+      "color": { "a": 1, "rgb": 5431378 }
+    },
+    {
+      "query": "path:\"3. Personagens\"",
+      "color": { "a": 1, "rgb": 14725458 }
+    },
+    {
+      "query": "path:\"4. Itens\"",
+      "color": { "a": 1, "rgb": 14200704 }
+    },
+    {
+      "query": "path:\"5. Organizações\"",
+      "color": { "a": 1, "rgb": 11621088 }
+    },
+    {
+      "query": "path:\"6. Monstros\"",
+      "color": { "a": 1, "rgb": 13395456 }
+    },
+    {
+      "query": "path:\"0. Grupo\"",
+      "color": { "a": 1, "rgb": 10855845 }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.5,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1,
+  "close": false
+}
